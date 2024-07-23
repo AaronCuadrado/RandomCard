@@ -1,19 +1,19 @@
-// Espera a que el contenido del documento esté completamente cargado
+// esperar a que se cargue el contenido
 document.addEventListener('DOMContentLoaded', () => {
-  // Referencia al elemento de la carta
+  // variable de la carta
   const carta = document.getElementById('carta');
-  // Referencia al botón para generar una nueva carta
+  // boton para la nueva carta
   const botonNuevaCarta = document.getElementById('boton');
 
-  // Posibles palos y valores de las cartas
+  //  palos y valores de las cartas
   const palos = ['corazon', 'pica', 'trebol', 'diamante'];
   const valores = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
 
-  // Función para obtener una carta aleatoria
+  // Función para obtener la carta aleatoria
   function obtenerCartaAleatoria() {
-      // Selecciona un palo aleatorio
+      // palo aleatorio
       const paloAleatorio = palos[Math.floor(Math.random() * palos.length)];
-      // Selecciona un valor aleatorio
+      // numero aleatorio
       const valorAleatorio = valores[Math.floor(Math.random() * valores.length)];
 
       // Actualiza la clase de la carta con el palo seleccionado
@@ -36,12 +36,12 @@ document.addEventListener('DOMContentLoaded', () => {
       }
   }
 
-  // Asocia la función para obtener una carta aleatoria al evento de clic del botón
+  // Asociar función para obtener la carta aleatoria al evento de clic del botón
   botonNuevaCarta.addEventListener('click', obtenerCartaAleatoria);
 
-  // Configura un intervalo para generar una nueva carta cada 10 segundos
+  //generar una nueva carta cada 10 segundos
   setInterval(obtenerCartaAleatoria, 10000);
 
-  // Genera una carta aleatoria al cargar la página
+  // Generar la carta aleatoria al cargar la pagina
   obtenerCartaAleatoria();
 });
