@@ -41,7 +41,7 @@ Si tienes preguntas, ¡no dudes en contactarme!
 
 1. Clona este repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/usuario/repositorio.git
+   git clone https://github.com/AaronCuadrado/RandomCard.git
 
 ## Autor
 
