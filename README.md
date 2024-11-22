@@ -1,53 +1,50 @@
-# Hello World with Vanilla JS
+# Generador de Cartas Aleatorias
 
-> 🇪🇸 [Spanish version of this readme is available](./README.es.md).
+Este proyecto genera una carta aleatoria cada 10 segundos automáticamente, o cuando el usuario presiona el botón correspondiente.
 
-Start coding a JS/HTML/CSS website in 30 seconds by opening this template using 4Geeks' [One-Click Coding](https://s.4geeks.com/start?repo=https://github.com/4GeeksAcademy/vanillajs-hello) or locally on your computer.
+## Capturas de Pantalla
 
-## Before you begin
+### Carta Aleatoria Generada
+![Carta Aleatoria](./src/imgs/carta.png)
 
-Install the packages by typing: `npm install`.
+### Cambio Automático de Carta
+![Cambio Automático](./src/imgs/codigo10s.png)
+
+### Botón para Generar Nueva Carta
+![Botón de Generación](./src/imgs/boton.png)
+
+### Otras Capturas
+Incluimos aquí más ejemplos visuales del proyecto:
+
+![Ejemplo 1](./src/imgs/ejemplo1.png)
+![Ejemplo 2](./src/imgs/ejemplo2.png)
+![Ejemplo 3](./src/imgs/ejemplo3.png)
 
 
-### How do I run my website to see live changes?  
 
+## Tecnologías Utilizadas
 
-Type on the command line `$ npm run start` and type localhost on the browser.
+- **HTML**: Para estructurar el contenido de la página.
+- **CSS**: Para estilizar la aplicación con colores vivos y botones interactivos.
+- **JavaScript**: Para la lógica de cambio de carta automática y manual.
 
-### Where do I write my code?  
+## Características
 
-It depends on the language, but you have `./src/app.js`, `./src/style.css` and `./src/index.html` respectively, you can add new `.html` as you please, just make sure to import it on the `app.js`.
+- Cambio automático de carta cada 10 segundos.
+- Posibilidad de cambiar la carta manualmente al presionar el botón.
+- Interfaz simple y colorida.
 
-> Note: remember that the JS workflow starts inside `window.onload`.
+## Cómo Ejecutarlo
 
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/usuario/repositorio.git
 
-## Troubleshooting
+## Autor
 
-### I don't see my changes...
+**Aaron Cuadrado Toral**  
+Desarrollador apasionado por la creación de proyectos interactivos y educativos.  
+Si tienes preguntas o sugerencias, ¡no dudes en contactarme!  
 
-Everytime you change any file inside the `./src` folder the website's public URL will automatically refresh the changes (it's a process called hot deploy)
-Remember also to refresh cleaning the cache (`command+shift+r` on Mac, `control+shift+r` on PC & Linux)
-
-### How do I include more images in my project?
-
-Add them inside the `./src/assets/img` folder and import them from any of your JS files. E.g: `import "../assets/img/rigo-baby.jpg";`
-
-### How do I include more JS files?
-
-Just add the files into the src folder and import the file/variables into your app.js. E.g: `import myVar from "./file2.js"`
-
-### How do I publish the website?
-
-This boilerplate is 100% compatible with the free GitHub pages hosting. Publish your website by running:
-
-```bash
-$ npm run deploy
-```
-
-Very easy and in just one step!  Push to your __main__ branch and use the free hosting that comes with [GitHub pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages), the project is ready to be published. Remember to choose to run the Github Page from your main branch.
-
-### Thank you
-
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning) or [CyberSecurity Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/cybersecurity)
-
-You can find other templates and resources like this at the [school's GitHub page](https://github.com/4geeksacademy/).
+- **GitHub**: [Tu perfil de GitHub](https://github.com/AaronCuadrado)  
+- **LinkedIn**: [Tu perfil de LinkedIn](https://www.linkedin.com/in/aaroncuadrado)  
