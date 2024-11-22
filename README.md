@@ -20,6 +20,9 @@ Incluimos aquí más ejemplos visuales del proyecto:
 ![Ejemplo 2](./src/imgs/ejemplo2.png)
 ![Ejemplo 3](./src/imgs/ejemplo3.png)
 
+Autor
+Creado por Aaron Cuadrado Toral.
+Si tienes preguntas, ¡no dudes en contactarme!
 
 
 ## Tecnologías Utilizadas
